@@ -1,0 +1,13 @@
+{
+  "name": "Auto Redirect Power-Up",
+  "details": "Redirige automáticamente cuando abres una tarjeta",
+  "icon": {
+    "url": "https://cdn-icons-png.flaticon.com/512/1828/1828490.png"
+  },
+  "capabilities": [
+    "card-detail-badges"
+  ],
+  "connectors": [],
+  "author": "Tu Nombre",
+  "version": "1.0"
+}

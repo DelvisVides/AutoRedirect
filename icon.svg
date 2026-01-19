@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="512" height="512">
+  <defs>
+    <linearGradient id="gBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#50C9F5"/>
+      <stop offset="100%" stop-color="#1B84E7"/>
+    </linearGradient>
+    <linearGradient id="gFlame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFE36E"/>
+      <stop offset="60%" stop-color="#FF9A3C"/>
+      <stop offset="100%" stop-color="#FF5A4A"/>
+    </linearGradient>
+    <linearGradient id="gFin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#29E0B1"/>
+      <stop offset="100%" stop-color="#00A67A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- No background rectangle: transparent background -->
+  <g fill="none" stroke="#0F2747" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Body -->
+    <path d="M32 4c-9 10-14 22-14 35 0 10 5 21 14 31 9-10 14-21 14-31 0-13-5-25-14-35z" fill="url(#gBody)"/>
+
+    <!-- Nose -->
+    <path d="M32 4c-3 3-5.5 6.4-7.5 10H39.5C37.5 10.4 35 7 32 4z" fill="#FF5A3D"/>
+
+    <!-- Window -->
+    <circle cx="32" cy="24" r="7.8" fill="#E7F5FF"/>
+    <circle cx="32" cy="24" r="4.2" fill="#9BD0FF"/>
+
+    <!-- Fins -->
+    <path d="M19.2 34.8c-6 .9-10.8 5.2-13 11.5 6 .3 11.5-1.6 16.3-5.4 1-0.8 2-1.8 3-3-2-1.3-4-2.3-6.3-3.1z" fill="url(#gFin)"/>
+    <path d="M44.8 34.8c6 .9 10.8 5.2 13 11.5-6 .3-11.5-1.6-16.3-5.4-1-0.8-2-1.8-3-3 2-1.3 4-2.3 6.3-3.1z" fill="url(#gFin)"/>
+
+    <!-- Nozzle -->
+    <path d="M24.5 46.5h15l-1.5 6.8a3 3 0 0 1-2.9 2.3h-6.2a3 3 0 0 1-2.9-2.3l-1.5-6.8z" fill="#FF7A4D"/>
+
+    <!-- Flame -->
+    <path d="M32 56.5c-1.2 1.5-2.1 3.4-2.1 5.5 0 3.4 2.1 6.2 2.1 6.2s2.1-2.8 2.1-6.2c0-2.1-0.9-4-2.1-5.5z" fill="url(#gFlame)" stroke="#F3722C"/>
+  </g>
+</svg>

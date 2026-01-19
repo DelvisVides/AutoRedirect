@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Fondo transparente (no se dibuja rectángulo de fondo) -->
+  <defs>
+    <linearGradient id="flameGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD166"/>
+      <stop offset="60%" stop-color="#FF8C42"/>
+      <stop offset="100%" stop-color="#F94144"/>
+    </linearGradient>
+    <linearGradient id="bodyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4FC3F7"/>
+      <stop offset="100%" stop-color="#2196F3"/>
+    </linearGradient>
+    <linearGradient id="finGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#27C9A8"/>
+      <stop offset="100%" stop-color="#00A388"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Grupo principal con contorno -->
+  <g stroke="#0F2747" stroke-width="16" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Cuerpo del cohete -->
+    <path d="M256 40c-60 66-88 141-88 220 0 58 32 124 88 184 56-60 88-126 88-184 0-79-28-154-88-220z" fill="url(#bodyGrad)"/>
+
+    <!-- Nariz -->
+    <path d="M256 40c-18 20-34 41-47 63h94c-13-22-29-43-47-63z" fill="#FF5A3D"/>
+
+    <!-- Ventana -->
+    <circle cx="256" cy="196" r="52" fill="#E3F2FD"/>
+    <circle cx="256" cy="196" r="28" fill="#90CAF9"/>
+
+    <!-- Aletas laterales -->
+    <path d="M168 292c-40 6-72 34-88 76 40 2 78-10 110-36 6-5 12-11 18-18-12-8-24-15-40-22z" fill="url(#finGrad)"/>
+    <path d="M344 292c40 6 72 34 88 76-40 2-78-10-110-36-6-5-12-11-18-18 12-8 24-15 40-22z" fill="url(#finGrad)"/>
+
+    <!-- Boquilla -->
+    <path d="M206 380h100l-10 44a20 20 0 0 1-19 15h-42a20 20 0 0 1-19-15l-10-44z" fill="#FF6D3A"/>
+
+    <!-- Llama -->
+    <path d="M256 448c-8 10-14 22-14 36 0 22 14 40 14 40s14-18 14-40c0-14-6-26-14-36z" fill="url(#flameGrad)" stroke="#F3722C"/>
+  </g>
+</svg>
